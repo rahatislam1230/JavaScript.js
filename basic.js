@@ -14,3 +14,8 @@
 let name = "John"; // String
 const age = 25; // Number
 var isStudent = true; // Boolean
+let city = "New York"; // String
+let population = 8_000_000; // Number
+let isCapital = false; // Boolean
+let country = null; // Null
+let zipCode; // Undefined
