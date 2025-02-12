@@ -24,3 +24,11 @@ let population = 8_000_000; // Number
 let isCapital = false; // Boolean
 let country = null; // Null
 let zipCode; // Undefined
+let a = 10;
+let b = 5;
+
+console.log(a + b); // Addition: 15
+console.log(a - b); // Subtraction: 5
+console.log(a * b); // Multiplication: 50
+console.log(a / b); // Division: 2
+console.log(a % b); // Modulus: 0
