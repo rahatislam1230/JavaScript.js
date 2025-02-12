@@ -65,3 +65,8 @@ function greet(name) {
 }
 
 console.log(greet("Alice")); // Output: Hello, Alice!
+const greet = (name) => {
+    return "Hello, " + name + "!";
+};
+
+console.log(greet("Bob")); // Output: Hello, Bob!
