@@ -55,3 +55,8 @@ for (let i = 0; i < 5; i++) {
 for (let i = 0; i < 5; i++) {
     console.log("Iteration: " + i);
 }
+let j = 0;
+do {
+    console.log("Iteration: " + j);
+    j++;
+} while (j < 5);
