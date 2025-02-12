@@ -42,3 +42,10 @@ let y = false;
 console.log(x && y); // AND: false
 console.log(x || y); // OR: true
 console.log(!x); // NOT: false
+let age = 18;
+
+if (age >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a minor.");
+}
