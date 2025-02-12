@@ -70,3 +70,8 @@ const greet = (name) => {
 };
 
 console.log(greet("Bob")); // Output: Hello, Bob!
+colors.push("Yellow"); // Add to the end
+colors.pop(); // Remove from the end
+colors.unshift("Orange"); // Add to the beginning
+colors.shift(); // Remove from the beginning
+console.log(colors.length); // Length of the array
