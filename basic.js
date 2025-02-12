@@ -36,3 +36,9 @@ console.log(a > b); // Greater than: true
 console.log(a < b); // Less than: false
 console.log(a === b); // Strict equality: false
 console.log(a !== b); // Strict inequality: true
+let x = true;
+let y = false;
+
+console.log(x && y); // AND: false
+console.log(x || y); // OR: true
+console.log(!x); // NOT: false
