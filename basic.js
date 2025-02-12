@@ -60,3 +60,8 @@ do {
     console.log("Iteration: " + j);
     j++;
 } while (j < 5);
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+
+console.log(greet("Alice")); // Output: Hello, Alice!
