@@ -49,3 +49,9 @@ if (age >= 18) {
 } else {
     console.log("You are a minor.");
 }
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
