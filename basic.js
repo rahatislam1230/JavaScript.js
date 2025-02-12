@@ -75,3 +75,11 @@ colors.pop(); // Remove from the end
 colors.unshift("Orange"); // Add to the beginning
 colors.shift(); // Remove from the beginning
 console.log(colors.length); // Length of the array
+try {
+    let result = 10 / 0;
+    if (!isFinite(result)) {
+        throw new Error("Division by zero!");
+    }
+} catch (error) {
+    console.log(error.message); // Output: Division by zero!
+}
