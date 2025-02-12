@@ -83,3 +83,5 @@ try {
 } catch (error) {
     console.log(error.message); // Output: Division by zero!
 }
+let heading = document.getElementById("heading"); // Select by ID
+let paragraphs = document.getElementsByClassName("text"); // Select by class
