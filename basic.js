@@ -85,3 +85,5 @@ try {
 }
 let heading = document.getElementById("heading"); // Select by ID
 let paragraphs = document.getElementsByClassName("text"); // Select by class
+let [a, b] = [1, 2];
+console.log(a, b); // Output: 1 2
