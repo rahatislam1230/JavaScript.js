@@ -32,3 +32,7 @@ console.log(a - b); // Subtraction: 5
 console.log(a * b); // Multiplication: 50
 console.log(a / b); // Division: 2
 console.log(a % b); // Modulus: 0
+console.log(a > b); // Greater than: true
+console.log(a < b); // Less than: false
+console.log(a === b); // Strict equality: false
+console.log(a !== b); // Strict inequality: true
