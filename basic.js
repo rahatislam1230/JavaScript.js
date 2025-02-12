@@ -19,3 +19,8 @@ let population = 8_000_000; // Number
 let isCapital = false; // Boolean
 let country = null; // Null
 let zipCode; // Undefined
+let city = "New York"; // String
+let population = 8_000_000; // Number
+let isCapital = false; // Boolean
+let country = null; // Null
+let zipCode; // Undefined
